@@ -20,7 +20,7 @@ export default function SinglePost() {
 
                 <br />
 
-                <h3>What's up my nigga?</h3>
+                <h3>What's up my?</h3>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita odit tenetur beatae dolor, cupiditate reiciendis.
                 </p>

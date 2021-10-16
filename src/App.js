@@ -22,6 +22,9 @@ function App() {
     <Route exact path="/">
       <Home />
     </Route>
+    <Route path="/emmashemsida">
+      <Home />
+    </Route>
     <Route path="/singlepost">
       <SinglePost />
     </Route>

@@ -12,14 +12,12 @@ export default function Home() {
                             alt="" 
                         />
                         <div className="content">
-                            <h2>Välkommen till emmas hemsida</h2>
+                            <h2>Välkommen till Emmas hemsida</h2>
                             <br />
                             <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro soluta adipisci delectus alias quibusdam natus tenetur ex dignissimos, voluptate eius!
+                                Växter, design, spel, ja allt.
                             </p>
-                            <p>
-                                New upload.
-                            </p>
+
                             <br />
                             <form action="" className="form-subscribe">
                                 <input type="text" placeholder="name"/>

@@ -1,0 +1,29 @@
+@import '../utilities/mixins';
+@import '../utilities/variables';
+
+.nav {
+    //Ändrar pricken brevid varje <li>
+    list-style-type: none;
+
+    //så de är brevid varandra istället för på varandra.
+    display: flex;
+
+    li {
+        margin: 0 10px;
+
+        //Första <li>
+        &:first-child {
+            margin-left: 0;
+        }
+
+        //Sista <li>
+        &:last-child {
+            margin-right: 0;
+        }
+
+        &:hover {
+            color: $color-pink;
+            cursor: pointer;
+        }
+    }
+}

@@ -1,0 +1,11 @@
+@import '../utilities/mixins';
+@import '../utilities/variables';
+
+.topbar {
+    background-color: $color-white;
+
+    .container {
+        @include container(medium);
+        padding: 10px;
+    }
+}

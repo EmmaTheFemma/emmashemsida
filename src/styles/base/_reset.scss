@@ -1,0 +1,99 @@
+@import '../utilities/mixins';
+@import '../utilities/variables';
+
+* {
+    //Ta bort basic skit kod
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+    //När man selectar något för att te.x kopiera
+    &::selection {
+        background-color: $color-pink;
+        color: $color-white;
+    }
+}
+
+body {
+    background-color: $color-white2;
+}
+
+//Länkar
+a {
+    color: $color-pink;
+
+    &:hover {
+        opacity: 0.7;
+    }
+}
+
+img {
+    object-fit: cover;
+    width: 100%;
+}
+
+article {
+
+    a {
+        margin: 0 5px;
+    }
+    
+    img {
+        max-height: 280px;
+    }
+
+    h1, h2, h3, h4, h5 {
+        margin-bottom: 14px;
+    }
+
+    p {
+        margin-bottom: 20px;
+    }
+}
+
+//För att ändra vissa länkar jag har redan stylat
+.link {
+    //Inherit betyder ta det som redan är bestämt tidigare.
+    color:inherit;
+    text-decoration:inherit;
+}
+
+//------ The Scrollbar!! ------------
+::-webkit-scrollbar {
+    width: 1.2em;
+}
+
+//Självka bakgrunden
+::-webkit-scrollbar-track {
+    background: $color-white;
+    border-radius: 100vw;
+    margin-block: .5em;
+}
+
+//Den som scrollar
+::-webkit-scrollbar-thumb {
+    background: $color-pink;
+    border: 0.25em solid $color-white;
+    border-radius: 100vw;
+}
+
+.container-post {
+    margin: 0 auto;
+}
+
+// -------- FLEX -----------
+.flex-spacebetween {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+// ------- HR, LINJER -----------
+hr.style-one {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}

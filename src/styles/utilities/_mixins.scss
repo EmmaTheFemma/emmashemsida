@@ -1,0 +1,72 @@
+@import './variables';
+
+@mixin container-side-padding {
+    padding: 0 20px;
+}
+
+//Lägger allt imitten
+@mixin flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+//För olika skärm storlekar.
+@mixin screen($mysize) {
+    @if $mysize==phone {
+        @media (min-width: 600px) {
+            @content;
+        }
+    }
+    @if $mysize==tablet {
+        @media (min-width: 1000px) {
+            @content;
+        }
+    }
+}
+
+//Containers
+@mixin container($mysize) {
+    //Centrerar allt.
+    margin: 0 auto;
+    //Space vid sidorna.
+    padding: 0 20px;
+
+    @if $mysize==small {
+        max-width: 800px;
+    }
+
+    @if $mysize==medium {
+        max-width: 1000px;
+    }
+
+    @if $mysize==big {
+        max-width: 1300px;
+    }
+}
+
+//Fonts
+@mixin font($myfont) {
+    @if $myfont==normal {
+        font-family: 'Hind Madurai', sans-serif;
+    }
+
+    @if $myfont==big {
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    @if $myfont==special {
+        font-family: 'Signika Negative', sans-serif;
+    }
+}
+
+//Kategorier standard style
+@mixin cats {
+    @include font(big);
+    font-weight: 500;
+    font-size: 16px;
+    color: $color-white;
+    border-radius: 4px;
+    border: none;
+    padding: 5px;
+}

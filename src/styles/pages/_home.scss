@@ -1,0 +1,35 @@
+@import '../utilities/mixins';
+@import '../utilities/variables';
+
+.home-header {
+    padding: 20px;
+    @include flexCenter;
+    flex-direction:column;
+
+    img {
+        max-height: 300px;
+        max-width: 300px;
+    }
+
+    .content {
+        padding: 20px;
+        max-width: 400px;
+    }
+
+    @include screen(phone) {
+        flex-direction: row;
+    }
+}
+
+.home-header-container {
+    @include container(medium);
+}
+
+.background1 {
+    background-color: $color-white;
+}
+
+.home-container {
+    @include container(small);
+    margin-top: 70px;
+}

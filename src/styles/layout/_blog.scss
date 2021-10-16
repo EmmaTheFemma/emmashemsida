@@ -1,0 +1,61 @@
+@import '../utilities/mixins';
+@import '../utilities/variables';
+
+.blog {
+
+    .container {
+        @include container(small);
+        background-color: $color-white;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        margin-top: 70px;
+        margin-bottom: 70px;
+        padding: 20px;
+
+        @include screen(phone) {
+            padding: 70px;
+        }
+    }
+}
+
+.blog-cover {
+
+    img {
+        max-height: 450px;
+    }
+}
+
+.cover-img {
+    position: relative;
+
+    .content-text {
+        position: absolute;
+        padding: 10px;
+        bottom: 6px;
+        background-color: rgba(44, 43, 43, 0.7);
+
+        p {
+            color:$color-white;
+        }
+
+        @include screen(phone) {
+            bottom: auto;
+            top: 30%;
+        }
+    }
+
+    img {
+        max-height: 400px
+    }
+}
+
+.posts-container {
+    @include container(medium);
+    margin-top: 70px;
+}
+
+
+//Kategorier
+.cat-plant {
+    @include cats;
+    background-color: green;
+}

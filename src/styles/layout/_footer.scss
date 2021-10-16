@@ -1,0 +1,18 @@
+@import '../utilities/mixins';
+@import '../utilities/variables';
+
+.footer-background {
+    background-color: $color-white;
+
+    .container {
+        @include container(medium);
+        padding: 20px;
+    }
+
+    .footer-logo {
+        @include flexCenter;
+        p {
+            font-size: 22px;
+        }
+    }
+}

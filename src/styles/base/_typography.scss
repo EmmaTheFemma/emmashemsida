@@ -1,0 +1,46 @@
+@import '../utilities/mixins';
+@import '../utilities/variables';
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    @include font(normal);
+}
+
+h1, h2, h3, h4, h5, h6, p, span {
+    max-width: 60ch;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: $color-black;
+    line-height: 0.8;
+}
+
+h1, h2 {
+    @include font(big);
+}
+
+p {
+    color: $color-dark-grey;
+    line-height: 1.6;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+h2 {
+    font-size: 2.3rem;
+}
+
+h3 {
+    font-size: 2rem;
+    @include font(special);
+}
+
+.thecolor {
+    color: $color-pink;
+}
+
+.thecolor-dark {
+    color: $color-pink-dark;
+}

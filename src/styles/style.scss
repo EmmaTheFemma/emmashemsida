@@ -1,0 +1,25 @@
+//Här lägger du bara till olika SCSS filer
+//Ingen annan kod här.
+
+//Base
+@import './base/reset';
+@import './base/typography';
+
+//Components
+@import './components/buttons';
+@import './components/cards';
+
+//Layout
+@import './layout/blog';
+@import './layout/footer';
+@import './layout/forms';
+@import './layout/grid';
+@import './layout/navigation';
+@import './layout/topbar';
+
+//Pages
+@import './pages/home';
+
+//Utilities
+@import './utilities/mixins';
+@import './utilities/variables';

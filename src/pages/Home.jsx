@@ -17,6 +17,9 @@ export default function Home() {
                             <p>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro soluta adipisci delectus alias quibusdam natus tenetur ex dignissimos, voluptate eius!
                             </p>
+                            <p>
+                                New upload.
+                            </p>
                             <br />
                             <form action="" className="form-subscribe">
                                 <input type="text" placeholder="name"/>

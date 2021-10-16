@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/emmashemsida/static/css/main.eaff3c23.chunk.css",
-    "main.js": "/emmashemsida/static/js/main.0204843a.chunk.js",
-    "main.js.map": "/emmashemsida/static/js/main.0204843a.chunk.js.map",
+    "main.js": "/emmashemsida/static/js/main.0038ad11.chunk.js",
+    "main.js.map": "/emmashemsida/static/js/main.0038ad11.chunk.js.map",
     "runtime-main.js": "/emmashemsida/static/js/runtime-main.986a495a.js",
     "runtime-main.js.map": "/emmashemsida/static/js/runtime-main.986a495a.js.map",
     "static/js/2.68c5370b.chunk.js": "/emmashemsida/static/js/2.68c5370b.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.986a495a.js",
     "static/js/2.68c5370b.chunk.js",
     "static/css/main.eaff3c23.chunk.css",
-    "static/js/main.0204843a.chunk.js"
+    "static/js/main.0038ad11.chunk.js"
   ]
 }

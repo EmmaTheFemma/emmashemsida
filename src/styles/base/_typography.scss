@@ -12,16 +12,16 @@ h1, h2, h3, h4, h5, h6, p, span {
 
 h1, h2, h3, h4, h5, h6 {
     color: $color-black;
-    line-height: 0.8;
+    line-height: 1;
 }
 
-h1, h2 {
+h1, h2,h3 {
     @include font(big);
 }
 
 p {
     color: $color-dark-grey;
-    line-height: 1.6;
+    line-height: 1.7;
 }
 
 h1 {
@@ -33,8 +33,8 @@ h2 {
 }
 
 h3 {
-    font-size: 2rem;
-    @include font(special);
+    font-size: 1.5rem;
+    font-weight: 600;
 }
 
 .thecolor {
@@ -43,4 +43,11 @@ h3 {
 
 .thecolor-dark {
     color: $color-pink-dark;
+}
+
+.logo {
+    h1, h2, h3 {
+        font-size: 2rem;
+    }
+
 }

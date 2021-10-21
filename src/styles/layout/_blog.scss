@@ -26,20 +26,17 @@
 
 .cover-img {
     position: relative;
+    display: flex;
+    flex-direction: center;
+    align-items: center;
 
     .content-text {
         position: absolute;
         padding: 10px;
-        bottom: 6px;
         background-color: rgba(44, 43, 43, 0.7);
 
         p {
             color:$color-white;
-        }
-
-        @include screen(phone) {
-            bottom: auto;
-            top: 30%;
         }
     }
 
@@ -58,4 +55,9 @@
 .cat-plant {
     @include cats;
     background-color: green;
+}
+//Kategorier
+.cat-blog {
+    @include cats;
+    background-color: rgb(53, 46, 156);
 }

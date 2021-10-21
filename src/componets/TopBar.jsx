@@ -6,7 +6,9 @@ export default function TopBar() {
         <div className="topbar">
             <div className="container flex-spacebetween">
                 <div className="logo">
+                    <Link to="/">
                     <h2 className="thecolor">Emma</h2>
+                    </Link>
                 </div>
 
                 <ul className="nav">

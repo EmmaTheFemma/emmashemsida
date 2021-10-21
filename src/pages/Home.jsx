@@ -12,7 +12,7 @@ export default function Home() {
                             alt="" 
                         />
                         <div className="content">
-                            <h2>Välkommen till Emmas hemsida</h2>
+                            <h2>Välkommen till min söta blogg</h2>
                             <br />
                             <p>
                                 Växter, design, spel, ja allt.

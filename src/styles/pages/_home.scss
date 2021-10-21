@@ -2,7 +2,8 @@
 @import '../utilities/variables';
 
 .home-header {
-    padding: 20px;
+    // Top, höger, ner, vänster. Går som klockan.
+    padding: 80px 20px 40px 20px;
     @include flexCenter;
     flex-direction:column;
 

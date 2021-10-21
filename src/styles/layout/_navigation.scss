@@ -23,6 +23,7 @@
 
         &:hover {
             color: $color-pink;
+            filter: brightness(100%);
             cursor: pointer;
         }
     }

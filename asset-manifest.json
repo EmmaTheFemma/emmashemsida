@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/emmashemsida/static/css/main.eaff3c23.chunk.css",
-    "main.js": "/emmashemsida/static/js/main.189107e3.chunk.js",
-    "main.js.map": "/emmashemsida/static/js/main.189107e3.chunk.js.map",
+    "main.css": "/emmashemsida/static/css/main.7e6c2191.chunk.css",
+    "main.js": "/emmashemsida/static/js/main.3d84bae0.chunk.js",
+    "main.js.map": "/emmashemsida/static/js/main.3d84bae0.chunk.js.map",
     "runtime-main.js": "/emmashemsida/static/js/runtime-main.986a495a.js",
     "runtime-main.js.map": "/emmashemsida/static/js/runtime-main.986a495a.js.map",
-    "static/js/2.68c5370b.chunk.js": "/emmashemsida/static/js/2.68c5370b.chunk.js",
-    "static/js/2.68c5370b.chunk.js.map": "/emmashemsida/static/js/2.68c5370b.chunk.js.map",
+    "static/js/2.bbe500d5.chunk.js": "/emmashemsida/static/js/2.bbe500d5.chunk.js",
+    "static/js/2.bbe500d5.chunk.js.map": "/emmashemsida/static/js/2.bbe500d5.chunk.js.map",
     "index.html": "/emmashemsida/index.html",
-    "static/css/main.eaff3c23.chunk.css.map": "/emmashemsida/static/css/main.eaff3c23.chunk.css.map",
-    "static/js/2.68c5370b.chunk.js.LICENSE.txt": "/emmashemsida/static/js/2.68c5370b.chunk.js.LICENSE.txt"
+    "static/css/main.7e6c2191.chunk.css.map": "/emmashemsida/static/css/main.7e6c2191.chunk.css.map",
+    "static/js/2.bbe500d5.chunk.js.LICENSE.txt": "/emmashemsida/static/js/2.bbe500d5.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.986a495a.js",
-    "static/js/2.68c5370b.chunk.js",
-    "static/css/main.eaff3c23.chunk.css",
-    "static/js/main.189107e3.chunk.js"
+    "static/js/2.bbe500d5.chunk.js",
+    "static/css/main.7e6c2191.chunk.css",
+    "static/js/main.3d84bae0.chunk.js"
   ]
 }

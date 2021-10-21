@@ -67,6 +67,11 @@ export default function SinglePost() {
                     Välj en titel som lockar. Sedan googlar du på titeln och ser hur andra har skrivit sina bloggar.
                     Du vet nu mer hur du ska göra. Googla annars blogg titlar.
                 </p>
+
+                <h3>Blogg struktur</h3>
+                <p>
+                    Googla "blog template" and thank me later.
+                </p>
             </article>
         </div>
     )

@@ -13,11 +13,13 @@ import Blog from './pages/Blog';
 import Footer from './componets/Footer';
 import AboutUs from './pages/AboutUs';
 import Contact from './pages/Contact';
+import ScrollToTop from './componets/ScrollToTop';
 
 function App() {
   return (
 <Router>
   <TopBar />
+  <ScrollToTop />
   <Switch>
     <Route exact path="/">
       <Home />
